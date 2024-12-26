@@ -10,6 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+const title = "Christmas 2025";
+const text = "Happy birthday to me!";
+const numberLikes = 25;
+const user = "Jesus";
+const isReported = false;
 
 // --^-- write your code here --^--
 
@@ -18,5 +23,9 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+console.log("Title:", title);
+console.log("Text:", text);
+console.log("Number of Likes:", numberLikes);
+console.log("User:", user);
+console.log("Is Reported:", isReported);
 // --^-- write your code here --^--
