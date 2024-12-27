@@ -8,7 +8,26 @@ const operand2 = 4;
 // Step 1: Use `document.querySelector` to select each button by its `data-js` attribute.
 
 // --v-- write your code here --v--
-
+const addButton = document.querySelector('[data-js="add"]');
+addButton.addEventListener("click", () => {
+  console.log("Add button clicked");
+});
+const substractButton = document.querySelector('[data-js="substract"]');
+substractButton.addEventListener("click", () => {
+  console.log("Substract button clicked");
+});
+const multiplyButton = document.querySelector('[data-js="multiply"]');
+multiplyButton.addEventListener("click", () => {
+  console.log("Multiply button clicked");
+});
+const divideButton = document.querySelector('[data-js="add"]');
+divideButton.addEventListener("click", () => {
+  console.log("Divide button clicked");
+});
+const exponentButton = document.querySelector('[data-js="exponent"]');
+exponentButton.addEventListener("click", () => {
+  console.log("ExponentButton button clicked");
+});
 // --^-- write your code here --^--
 
 /* 
