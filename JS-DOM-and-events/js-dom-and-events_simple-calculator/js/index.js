@@ -13,6 +13,7 @@ const substractButton = document.querySelector('[data-js="substract"]');
 const multiplyButton = document.querySelector('[data-js="multiply"]');
 const divideButton = document.querySelector('[data-js="divide"]');
 const exponentButton = document.querySelector('[data-js="exponent"]');
+const moduloButton = document.querySelector('[data-js="modulo"]');
 // --^-- write your code here --^--
 
 /* 
@@ -46,6 +47,8 @@ exponentButton.addEventListener("click", () => {
   const result = operand1 ** operand2;
   console.log("Exponentiation: ");
 });
+
+
 // --^-- write your code here --^--
 
 // ----- Update the First Operand -----
