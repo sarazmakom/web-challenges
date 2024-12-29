@@ -2,6 +2,7 @@ console.clear();
 
 let operand1 = 12;
 const operand2 = 4;
+const resetOperand1 = operand1;
 
 // ----- Mathematical Operations -----
 
@@ -78,27 +79,33 @@ const multiplyOp1by2 = document.querySelector('[data-js="multiply-by-two"]');
 const divideOp1by2 = document.querySelector('[data-js="divide-by-two"]');
 
 increaseOp1by1.addEventListener("click", () => {
-  operand1 + 1;
-  console.log("Increased by 1");
+  operand1 = operand1 + 1;
+  console.log("Increased by 1 result: " + operand1);
+  operand1 = resetOperand1;
 });
 increaseOp1by5.addEventListener("click", () => {
-  operand1 + 5;
-  console.log("Increased by 5");
+  operand1 = operand1 + 5;
+  console.log("Increased by 5 result: " + operand1);
+  operand1 = resetOperand1;
 });
 decreaseOp1by1.addEventListener("click", () => {
-  operand1 - 1;
-  console.log("Decreased by 1");
+  operand1 = operand1 - 1;
+  console.log("Decreased by 1 result: " + operand1);
+  operand1 = resetOperand1;
 });
 decreaseOp1by5.addEventListener("click", () => {
-  operand1 - 5;
-  console.log("Decreased by 5");
+  operand1 = operand1 - 5;
+  console.log("Decreased by 5 result: " + operand1);
+  operand1 = resetOperand1;
 });
 multiplyOp1by2.addEventListener("click", () => {
-  operand1 * 2;
-  console.log("Multiplied by 2");
+  operand1 = operand1 * 2;
+  console.log("Multiplied by 2 result: " + operand1);
+  operand1 = resetOperand1;
 });
 divideOp1by2.addEventListener("click", () => {
-  operand1 / 2;
-  console.log("Divided by 2");
+  operand1 = operand1 / 2;
+  console.log("Divided by 2 result: " + operand1);
+  resetOperand1 + operand1;
 });
 // --^-- write your code here --^--
