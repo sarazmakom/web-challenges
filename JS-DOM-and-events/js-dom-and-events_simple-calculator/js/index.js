@@ -55,7 +55,6 @@ moduloButton.addEventListener("click", () => {
   const result = operand1 % operand2;
   console.log("Modulo: " + operand1 + " % " + operand2 + " = " + result);
 });
-
 // --^-- write your code here --^--
 
 // ----- Update the First Operand -----
@@ -71,5 +70,35 @@ Step 2: Add event listeners to update `operand1` based on the button clicked. Lo
 */
 
 // --v-- write your code here --v--
+const increaseOp1by1 = document.querySelector('[data-js="increase-by-one"]');
+const increaseOp1by5 = document.querySelector('[data-js="increase-by-five"]');
+const decreaseOp1by1 = document.querySelector('[data-js="decrease-by-one"]');
+const decreaseOp1by5 = document.querySelector('[data-js="decrease-by-five"]');
+const multiplyOp1by2 = document.querySelector('[data-js="multiply-by-two"]');
+const divideOp1by2 = document.querySelector('[data-js="divide-by-two"]');
 
+increaseOp1by1.addEventListener("click", () => {
+  operand1 + 1;
+  console.log("Increased by 1");
+});
+increaseOp1by5.addEventListener("click", () => {
+  operand1 + 5;
+  console.log("Increased by 5");
+});
+decreaseOp1by1.addEventListener("click", () => {
+  operand1 - 1;
+  console.log("Decreased by 1");
+});
+decreaseOp1by5.addEventListener("click", () => {
+  operand1 - 5;
+  console.log("Decreased by 5");
+});
+multiplyOp1by2.addEventListener("click", () => {
+  operand1 * 2;
+  console.log("Multiplied by 2");
+});
+divideOp1by2.addEventListener("click", () => {
+  operand1 / 2;
+  console.log("Divided by 2");
+});
 // --^-- write your code here --^--
