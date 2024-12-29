@@ -9,7 +9,7 @@ const operand2 = 4;
 
 // --v-- write your code here --v--
 const addButton = document.querySelector('[data-js="add"]');
-const substractButton = document.querySelector('[data-js="substract"]');
+const subtractButton = document.querySelector('[data-js="subtract"]');
 const multiplyButton = document.querySelector('[data-js="multiply"]');
 const divideButton = document.querySelector('[data-js="divide"]');
 const exponentButton = document.querySelector('[data-js="exponent"]');
@@ -31,7 +31,7 @@ addButton.addEventListener("click", () => {
   const result = operand1 + operand2;
   console.log("Addition: " + operand1 + " + " + operand2 + " = " + result);
 });
-substractButton.addEventListener("click", () => {
+subtractButton.addEventListener("click", () => {
   const result = operand1 - operand2;
   console.log("Substraction: " + operand1 + " - " + operand2 + " = " + result);
 });
