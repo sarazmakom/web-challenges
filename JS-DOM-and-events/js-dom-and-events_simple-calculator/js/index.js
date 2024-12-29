@@ -20,7 +20,7 @@ const multiplyButton = document.querySelector('[data-js="multiply"]');
 multiplyButton.addEventListener("click", () => {
   console.log("Multiply button clicked");
 });
-const divideButton = document.querySelector('[data-js="add"]');
+const divideButton = document.querySelector('[data-js="divide"]');
 divideButton.addEventListener("click", () => {
   console.log("Divide button clicked");
 });
