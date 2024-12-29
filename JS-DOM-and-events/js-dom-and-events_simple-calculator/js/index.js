@@ -1,6 +1,6 @@
 console.clear();
 
-const operand1 = 12;
+let operand1 = 12;
 const operand2 = 4;
 
 // ----- Mathematical Operations -----
@@ -33,7 +33,7 @@ addButton.addEventListener("click", () => {
 });
 subtractButton.addEventListener("click", () => {
   const result = operand1 - operand2;
-  console.log("Substraction: " + operand1 + " - " + operand2 + " = " + result);
+  console.log("Subtraction: " + operand1 + " - " + operand2 + " = " + result);
 });
 multiplyButton.addEventListener("click", () => {
   const result = operand1 * operand2;
