@@ -20,26 +20,30 @@ console.log("Exercise 2:");
    Replace the function calls below with your new function.
 */
 
-function greetBob() {
-  console.log("Welcome Bob, good to see you again!");
-}
+// function greetBob() {
+//   console.log("Welcome Bob, good to see you again!");
+// }
 
-function greetAlice() {
-  console.log("Welcome Alice, good to see you again!");
-}
+// function greetAlice() {
+//   console.log("Welcome Alice, good to see you again!");
+// }
 
-function greetMary() {
-  console.log("Welcome Mary, good to see you again!");
-}
+// function greetMary() {
+//   console.log("Welcome Mary, good to see you again!");
+// }
 
-greetAlice();
-greetBob();
-greetMary();
+// greetAlice();
+// greetBob();
+// greetMary();
 
 // --v-- write your code here --v--
+function greet(name) {
+  console.log("Welcome " + name + ", good to see you again!");
+}
 
-function greet() {}
-
+greet("Alice");
+greet("Bob");
+greet("Mary");
 // --^-- write your code here --^--
 
 console.log("-------------");
