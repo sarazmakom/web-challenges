@@ -20,9 +20,13 @@ printSquare(5);
 */
 
 // Uncomment the following function calls and implement the function `printCircumference`.
+function printCircumference(radius) {
+  const pi = 3.14;
+  console.log(2 * pi * radius);
+}
 
-// printCircumference(4);
-// printCircumference(6);
+printCircumference(4);
+printCircumference(6);
 
 /*
 3: Write a function that accepts the width and length of a rectangle
