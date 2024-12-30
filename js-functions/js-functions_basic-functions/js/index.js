@@ -34,6 +34,11 @@ console.log ("Title: " + bookTitle)
 console.log ("Author: " + bookAuthor)
 console.log ("Rating: " + bookRating)
 console.log ("Copies sold: " + soldCopies)
+
+console.log ("Title: " + bookTitle)
+console.log ("Author: " + bookAuthor)
+console.log ("Rating: " + bookRating + 7)
+console.log ("Copies sold: " + soldCopies * 2)
 // --^-- write your code here --^--
 
 /*
