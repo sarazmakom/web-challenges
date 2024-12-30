@@ -30,19 +30,18 @@ Then:
 */
 
 // --v-- write your code here --v--
-// console.log("Title: " + bookTitle);
-// console.log("Author: " + bookAuthor);
-// console.log("Rating: " + bookRating);
-// console.log("Copies sold: " + soldCopies);
+console.log("Title: " + bookTitle);
+console.log("Author: " + bookAuthor);
+console.log("Rating: " + bookRating);
+console.log("Copies sold: " + soldCopies);
 
-// bookRating += 0.7;
-// soldCopies += 700000;
+bookRating += 0.7;
+soldCopies += 700000;
 
-// console.log("Title: " + bookTitle);
-// console.log("Author: " + bookAuthor);
-// console.log("Rating: " + bookRating);
-// console.log("Copies sold: " + soldCopies);
-
+console.log("Title: " + bookTitle);
+console.log("Author: " + bookAuthor);
+console.log("Rating: " + bookRating);
+console.log("Copies sold: " + soldCopies);
 // --^-- write your code here --^--
 
 /*
