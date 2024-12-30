@@ -44,3 +44,5 @@ grayButton.addEventListener("click", () => {
 });
 
 // Write your two functions below:
+function removeAllColors() {}
+function addColor() {}
