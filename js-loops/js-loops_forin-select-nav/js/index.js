@@ -21,6 +21,12 @@ select.name = "languages";
 main.append(select);
 
 // --v-- write or modify code below this line --v--
+for (const entry in languages) {
+  const option = document.createElement("option");
+  option.value = entry;
+  option.textContent = languages[entry];
+  select.append(option);
+}
 
 // --^-- write or modify code above this line --^--
 
